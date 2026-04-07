@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Резюме оператора колл-центра "Вьюпоинт"</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #0056b3;
+            margin-bottom: 25px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="date"],
+        input[type="tel"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+        .checkbox-group {
+            display: flex;
+            gap: 20px;
+        }
+        .checkbox-group label {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .checkbox-group input {
+            transform: scale(1.2);
+        }
+        .signature-block {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+        .signature-block input {
+            width: 48%;
+        }
+        button {
+             margin-top: 25px;
+             padding: 12px 25px;
+             background-color: #0056b3; /* Синий */
+             color: white !important;
+             border: none;
+             border-radius: 4px;
+             cursor: pointer;
+             font-size: 16px;
+             font-weight: bold;
+             transition: background-color 0.3s ease;
+         }
+         button:hover {
+             background-color: #004085; /* Темно-синий при наведении */
+         }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Резюме оператора колл-центра "Вьюпоинт"</h1>
+
+    <form method="POST" action="https://script.google.com/macros/s/AKfycbypqgi1dhyF7c9CvTuhZLkbRh3T3OT_SyoNYjwE78xSmlF1O9a47aIn5zZtxU0qlIY/exec">
+        
+        <div class="form-group">
+            <label>Личный номер _ _ _</label>
+            <input type="text" name="Личный номер" placeholder="заполняется супервайзером!" disabled>
+        </div>
+
+         <div class="form-group">
+             <label>Район/город проживания</label>
+             <input type="text" name="Район/город проживания">
+         </div>
+
+         <div class="form-group">
+             <label>Фамилия</label>
+             <input type="text" name="Фамилия" required>
+         </div>
+
+         <div class="form-group">
+             <label>Имя</label>
+             <input type="text" name="Имя" required>
+         </div>
+
+         <div class="form-group">
+             <label>Отчество</label>
+             <input type="text" name="Отчество" required>
+         </div>
+
+         <div class="form-group">
+             <label>Дата рождения</label>
+             <input type="date" name="Дата рождения" required>
+         </div>
+
+         <div class="form-group">
+             <label>Паспорт</label>
+             <input type="text" name="Паспорт" placeholder="_ _ _ _ № _ _ _ _ _ _ выдан ____________________________________________">
+         </div>
+
+         <div class="form-group">
+             <label>Адрес (по регистрации)</label>
+             <input type="text" name="Адрес (по регистрации)" placeholder="_ _ _ _ _ _ ______________________________">
+         </div>
+
+         <div class="form-group">
+             <label>Адрес (фактический)</label>
+             <input type="text" name="Адрес (фактический)" placeholder="_ _ _ _ _ _ ________________________________">
+         </div>
+
+         <!-- РАЗДЕЛЕНИЕ ПОЛЕЙ -->
+         <div class="form-group">
+             <label>Семейное положение</label>
+             <input type="text" name="Семейное положение" placeholder="Например: Женат/Не женат/Разведен">
+         </div>
+
+         <div class="form-group">
+             <label>Дети (кол-во, возраст)</label>
+             <input type="text" name="Дети (кол-во, возраст)" placeholder="Например: 2 (5 и 8 лет) или нет">
+         </div>
+         <!-- КОНЕЦ РАЗДЕЛЕНИЯ -->
+
+         <div class="form-group">
+             <label>Образование</label>
+             <input type="text" name="Образование" placeholder="_______________________________(учебное заведение, год окончания, факультет)">
+         </div>
+
+         <div class="form-group">
+             <label>Профессия</label>
+             <input type="text" name="Профессия" placeholder="________________________ (специальность и классификация)">
+         </div>
+
+         <div class="form-group">
+             <label>Опыт работы оператором колл-центра</label>
+             <textarea name="Опыт работы оператором колл-центра" placeholder="Если есть, укажите где и в течение какого времени вы работали оператором"></textarea>
+         </div>
+
+         <div class="checkbox-group form-group">
+              <label><input type="checkbox" name="Есть компьютер/ноутбук"> Есть ли у вас компьютер/ноутбук?</label>
+              <label><input type="checkbox" name="Есть гарнитура"> Есть ли у вас Bluetooth-гарнитура, наушники с микрофоном?</label>
+         </div>
+
+         <div class="form-group">
+             <label>Откуда вы о нас узнали?</label>
+             <input type="text" name="Откуда вы о нас узнали?" placeholder="_____________________________ Сайт">
+         </div>
+
+         <div class="form-group">
+             <label>Контактные телефоны [+7] [] [] [] [] [] [] [] [] [] []</label>
+             <!-- Добавлено поле для ввода номера -->
+             <input type="tel" name="Контактные телефоны" placeholder="+7 (___) ___-__-__" required>
+         </div>
+
+         <hr>
+
+         <p>Я поставлен(а) в известность об условиях сотрудничества оператора колл-центра и ООО АМК "Вьюпоинт" и обязуюсь не разглашать сведений, которые станут мне известны при проведении интервью.</p>
+
+         <div class="signature-block">
+              <input type="date" name="Дата подписи" placeholder="_ _ /_ _ /_ _ _ _ (дата)">
+              <input type="text" name="Подпись кандидата" placeholder="_ _ _ _ _ _ _ _ _ _ (подпись)">
+         </div>
+        
+        <button type="submit">Отправить резюме</button>
+    </form>
+</div>
+
+</body>
+</html>
