@@ -8,8 +8,8 @@ app = Flask(__name__)
 
 # --- НАСТРОЙКИ (ЗАПОЛНИТЕ ЭТИ ПОЛЯ) ---
 # Ваш email, на который будут приходить резюме
-MY_EMAIL = "post@vpoint.ru" 
-MY_PASSWORD = "ваш_пароль" 
+MY_EMAIL = "fedorov.yroslav.vlg@gmail.com" 
+MY_PASSWORD = "Follow_Line17" 
 
 # Если вы используете Gmail, может потребоваться включить "Ненадежные приложения" или создать "Пароль приложения"
 SMTP_SERVER = "smtp.gmail.com"
